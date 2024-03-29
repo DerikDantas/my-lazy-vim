@@ -30,11 +30,6 @@ map("n", "<C-p>", "<cmd>Telescope find_files<cr>")
 map("n", "<leader>fw", "<cmd>Telescope live_grep<cr>")
 map("n", "<leader>fa", "<cmd>Telescope live_grep_args<cr>")
 
--- Tranparent
-map("n", "<leader>uT", "<cmd>TransparentEnable<cr>", { desc = "Enable background transparency" })
-map("n", "<leader>ut", "<cmd>TransparentToggle<cr>", { desc = "Toggle background transparency" })
-
--- mini.nvim
 map("n", "<leader>C", function()
   require("mini.bufremove").delete(0, false)
 end, { desc = "Delete Buffer" })
