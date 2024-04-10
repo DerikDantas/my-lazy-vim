@@ -24,7 +24,7 @@ mv $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
 **Linux/Mac OS**
 
 ```sh
-git clone https://github.com/rafa-thayto/lazy-thayto-vim ~/.config/nvim
+git clone https://github.com/DerikDantas/my-lazy-vim.git ~/.config/nvim
 ```
 
 **Windows:**
