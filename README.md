@@ -30,7 +30,7 @@ git clone https://github.com/DerikDantas/my-lazy-vim.git ~/.config/nvim
 **Windows:**
 
 ```sh
-git clone https://github.com/rafa-thayto/lazy-thayto-vim $env:LOCALAPPDATA\nvim
+git clone https://github.com/DerikDantas/my-lazy-vim.git $env:LOCALAPPDATA\nvim
 ```
 
 ## ⚡️ Requirements
